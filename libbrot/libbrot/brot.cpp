@@ -1,7 +1,7 @@
-#include <libbrot/brot.hpp>
-
 #include <ostream>
 #include <stdexcept>
+
+module brot:
 
 using namespace std;
 

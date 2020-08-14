@@ -1,5 +1,7 @@
 #include <iostream>
 
+import brot;
+
 int main (int argc, char* argv[])
 {
   using namespace std;
@@ -10,5 +12,5 @@ int main (int argc, char* argv[])
     return 1;
   }
 
-  cout << "Hello, " << argv[1] << '!' << endl;
+  brot::say_hello (cout, argv[1]);
 }
