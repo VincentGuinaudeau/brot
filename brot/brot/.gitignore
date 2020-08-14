@@ -1,0 +1,5 @@
+brot
+
+# Testscript output directory (can be symlink).
+#
+test-brot

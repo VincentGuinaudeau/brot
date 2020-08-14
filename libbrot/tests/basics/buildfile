@@ -1,0 +1,3 @@
+import libs = libbrot%lib{brot}
+
+exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}

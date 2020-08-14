@@ -1,0 +1,3 @@
+# libbrot
+
+C++ library

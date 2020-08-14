@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libbrot/
+}
+
+export $out_root/libbrot/$import.target

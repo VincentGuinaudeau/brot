@@ -1,0 +1,7 @@
+project = libbrot
+
+using version
+using config
+using test
+using install
+using dist
