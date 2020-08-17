@@ -1,4 +1,4 @@
-cxx.std = latest
+cxx.std = experimental
 
 using cxx
 
@@ -6,6 +6,7 @@ hxx{*}: extension = hpp
 ixx{*}: extension = ipp
 txx{*}: extension = tpp
 cxx{*}: extension = cpp
+mxx{*}: extension = mpp
 
 # The test target for cross-testing (running tests under Wine, etc).
 #
