@@ -3,6 +3,9 @@
 #include <stdexcept>
 
 // #include <libbrot/version.hpp>
+// #include <libbrot/brot.hpp>
+
+import brot;
 
 int main ()
 {

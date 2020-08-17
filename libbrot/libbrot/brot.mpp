@@ -1,6 +1,7 @@
-
+module;
 #include <iosfwd>
 #include <string>
+#include <libbrot/export.hpp>
 
 export module brot;
 
