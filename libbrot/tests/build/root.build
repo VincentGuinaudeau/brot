@@ -1,4 +1,5 @@
 cxx.std = experimental
+cxx.features.modules = true
 
 using cxx
 

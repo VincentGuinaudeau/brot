@@ -1,8 +1,8 @@
-module; // Note: non-interface modules units are not yet supported by MSVC, it triggers a bug where
-#include <ostream>
-#include <stdexcept>
+module;
+import <ostream>;
+import <stdexcept>;
 
-module brot; // Note: non-interface modules units are not yet supported by MSVC, it triggers a bug where
+module brot;
 
 using namespace std;
 

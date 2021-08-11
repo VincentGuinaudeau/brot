@@ -1,10 +1,11 @@
-#include <iostream>
+import <iostream>;
 
 import brot;
 
+using namespace std;
+
 int main (int argc, char* argv[])
 {
-  using namespace std;
 
   if (argc < 2)
   {

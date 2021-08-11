@@ -1,6 +1,9 @@
-libs =
-import libs += libbrot%lib{brot}
+# libs =
+# import libs += libbrot%lib{brot}
 
-exe{brot}: {hxx ixx txx cxx}{**} $libs testscript
+include ../../libbrot/libbrot/
 
-cxx.poptions =+ "-I$out_root" "-I$src_root"
+# exe{brot}: {hxx ixx txx cxx}{**} $libs testscript
+exe{brot}: {hxx ixx txx cxx}{**} ../../libbrot/libbrot/lib{brot} testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root" "-g3"
