@@ -2,7 +2,7 @@ intf_libs = # Interface dependencies.
 impl_libs = # Implementation dependencies.
 #import impl_libs += libhello%lib{hello}
 
-lib{brot}: {hxx ixx txx mxx cxx}{** -version} hxx{version} $impl_libs $intf_libs
+lib{brot}: {hxx ixx txx mxx cxx}{** -version}  $impl_libs $intf_libs # hxx{version}
 
 # Include the generated version header into the distribution (so that we don't
 # pick up an installed one) and don't remove it when cleaning in src (so that

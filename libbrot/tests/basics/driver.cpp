@@ -2,8 +2,10 @@
 #include <sstream>
 #include <stdexcept>
 
-#include <libbrot/version.hpp>
-#include <libbrot/brot.hpp>
+// #include <libbrot/version.hpp>
+// #include <libbrot/brot.hpp>
+
+import brot;
 
 int main ()
 {

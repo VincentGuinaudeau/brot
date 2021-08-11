@@ -1,7 +1,8 @@
+module; // Note: non-interface modules units are not yet supported by MSVC, it triggers a bug where
 #include <ostream>
 #include <stdexcept>
 
-module brot:
+module brot; // Note: non-interface modules units are not yet supported by MSVC, it triggers a bug where
 
 using namespace std;
 
